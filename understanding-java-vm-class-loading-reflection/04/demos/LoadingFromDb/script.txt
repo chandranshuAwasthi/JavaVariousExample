@@ -1,0 +1,1 @@
+insert into Classes (className, class) select 'com.pluralsight.Quote', * from OPENROWSET(BULK N'C:\demos\ClassloadingWithItf\out\production\Implementations\com\pluralsight\Quote.class', SINGLE_BLOB) rs

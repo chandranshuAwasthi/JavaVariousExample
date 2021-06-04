@@ -1,0 +1,12 @@
+[
+  {
+    "type": "com.mantiso.IMeeting",
+    "mapTo": "com.mantiso.Meeting",
+    "singleton": false
+  },
+  {
+    "type": "com.mantiso.IMeetingService",
+    "mapTo": "com.mantiso.MeetingService",
+    "singleton": false
+  }
+]

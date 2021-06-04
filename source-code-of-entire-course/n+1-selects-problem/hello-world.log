@@ -1,0 +1,637 @@
+09:23:20,237 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+09:23:20,280 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+09:23:20,414 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+09:23:20,425 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+09:23:20,428 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+09:23:20,429 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+09:23:20,432 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [39]
+09:25:03,002 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+09:25:03,047 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+09:25:03,127 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+09:25:03,128 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+09:25:03,184 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+09:25:03,192 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+09:25:03,195 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+09:25:03,197 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+09:25:03,200 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [40]
+09:25:03,220 DEBUG SQL:92 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name, id) 
+    values
+        (?, ?, ?, ?)
+09:25:03,222 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [2014RG50347]
+09:25:03,223 TRACE BasicBinder:52 - binding parameter [2] as [BIGINT] - [null]
+09:25:03,224 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [Rahul Singh]
+09:25:03,225 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [41]
+09:26:17,908 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+09:26:17,962 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+09:26:18,038 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+09:26:18,041 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+09:26:18,099 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+09:26:18,107 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+09:26:18,109 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+09:26:18,112 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+09:26:18,132 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [42]
+09:26:18,145 DEBUG SQL:92 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name, id) 
+    values
+        (?, ?, ?, ?)
+09:26:18,146 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [2014RG50347]
+09:26:18,153 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [42]
+09:26:18,155 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [Rahul Singh]
+09:26:18,156 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [43]
+09:45:42,168 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+09:45:42,204 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+09:45:42,305 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+09:45:42,314 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+09:45:42,317 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+09:45:42,318 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+09:45:42,321 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [44]
+16:19:24,061 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:19:24,083 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:19:24,150 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+16:19:24,155 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+16:19:24,156 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+16:19:24,156 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+16:19:24,157 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [45]
+16:22:11,239 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:22:11,259 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:22:11,313 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+16:22:11,317 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+16:22:11,319 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+16:22:11,320 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+16:22:11,321 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [46]
+16:25:38,216 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:25:38,236 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:25:38,303 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+16:25:38,307 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+16:25:38,308 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+16:25:38,309 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+16:25:38,310 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [47]
+16:26:05,370 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:26:05,389 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:26:05,453 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+16:26:05,459 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+16:26:05,462 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+16:26:05,462 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+16:26:05,463 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [48]
+16:26:39,702 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:26:39,718 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:26:39,773 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+16:26:39,777 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+16:26:39,778 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+16:26:39,779 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+16:26:39,780 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [49]
+16:28:31,026 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:28:31,047 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:28:31,104 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+16:28:31,108 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+16:28:31,109 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+16:28:31,110 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+16:28:31,111 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [50]
+16:31:21,420 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:31:21,435 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:31:21,491 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+16:31:21,494 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+16:31:21,495 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+16:31:21,496 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+16:31:21,497 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [51]
+16:32:07,937 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:32:07,954 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:32:08,006 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+16:32:08,010 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+16:32:08,011 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+16:32:08,011 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+16:32:08,012 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [52]
+16:33:07,773 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:33:07,792 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:33:07,831 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:33:07,832 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:33:07,863 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+16:33:07,867 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+16:33:07,869 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+16:33:07,869 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+16:33:07,870 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [53]
+16:33:07,874 DEBUG SQL:92 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name, id) 
+    values
+        (?, ?, ?, ?)
+16:33:07,875 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [2014RG50347]
+16:33:07,875 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [53]
+16:33:07,876 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [Rahul Singh]
+16:33:07,876 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [54]
+16:36:26,037 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:36:26,051 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:36:26,104 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+16:36:26,108 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+16:36:26,109 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+16:36:26,110 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+16:36:26,111 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [55]
+16:37:00,026 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:37:00,041 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:37:00,088 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+16:37:00,104 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+16:37:00,135 DEBUG SQL:92 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, id) 
+    values
+        (?, ?, ?, ?)
+16:37:00,135 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [David Crow]
+16:37:00,135 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+16:37:00,135 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000DO10777]
+16:37:00,135 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [56]
+16:37:00,151 DEBUG SQL:92 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name, id) 
+    values
+        (?, ?, ?, ?)
+16:37:00,151 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [2014RG50347]
+16:37:00,151 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [56]
+16:37:00,151 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [Rahul Singh]
+16:37:00,151 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [57]
+17:01:21,550 DEBUG SQL:92 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+17:01:21,569 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:01:21,605 DEBUG SQL:92 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_1_0_,
+        students0_.id as id1_1_1_,
+        students0_.enrollment_id as enrollme2_1_1_,
+        students0_.guide_id as guide_id4_1_1_,
+        students0_.name as name3_1_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+17:01:21,605 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:01:21,638 DEBUG SQL:92 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+17:01:21,639 DEBUG SQL:92 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+17:01:21,674 DEBUG SQL:92 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name, id) 
+    values
+        (?, ?, ?, ?)
+17:01:21,676 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [2014RG50387]
+17:01:21,677 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [53]
+17:01:21,677 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [Takshvi Awasthi]
+17:01:21,677 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [58]
+17:03:50,493 DEBUG SQL:92 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+17:03:50,514 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:03:50,549 DEBUG SQL:92 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_1_0_,
+        students0_.id as id1_1_1_,
+        students0_.enrollment_id as enrollme2_1_1_,
+        students0_.guide_id as guide_id4_1_1_,
+        students0_.name as name3_1_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+17:03:50,550 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:04:54,449 DEBUG SQL:92 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+17:04:54,472 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:04:54,568 DEBUG SQL:92 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_1_0_,
+        students0_.id as id1_1_1_,
+        students0_.enrollment_id as enrollme2_1_1_,
+        students0_.guide_id as guide_id4_1_1_,
+        students0_.name as name3_1_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+17:04:54,569 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:41:34,309 DEBUG SQL:92 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+17:41:34,336 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:41:34,380 DEBUG SQL:92 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_1_0_,
+        students0_.id as id1_1_1_,
+        students0_.enrollment_id as enrollme2_1_1_,
+        students0_.guide_id as guide_id4_1_1_,
+        students0_.name as name3_1_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+17:41:34,381 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:42:20,029 DEBUG SQL:92 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+17:42:20,055 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:42:20,159 DEBUG SQL:92 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_1_0_,
+        students0_.id as id1_1_1_,
+        students0_.enrollment_id as enrollme2_1_1_,
+        students0_.guide_id as guide_id4_1_1_,
+        students0_.name as name3_1_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+17:42:20,160 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:43:24,915 DEBUG SQL:92 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+17:43:24,941 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:43:24,982 DEBUG SQL:92 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_1_0_,
+        students0_.id as id1_1_1_,
+        students0_.enrollment_id as enrollme2_1_1_,
+        students0_.guide_id as guide_id4_1_1_,
+        students0_.name as name3_1_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+17:43:24,984 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [53]
+17:43:44,698 DEBUG SQL:92 - 
+    update
+        Student 
+    set
+        enrollment_id=?,
+        guide_id=?,
+        name=? 
+    where
+        id=?
+17:43:44,710 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [2014RG50347chan]
+17:43:44,718 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [53]
+17:43:44,721 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [Rahul Singh]
+17:43:44,725 TRACE BasicBinder:64 - binding parameter [4] as [BIGINT] - [54]

@@ -1,0 +1,1 @@
+java -Djava.library.path=C:\demos\LoadingFromDb\Client\lib\x64 -cp out\artifacts\Interfaces_jar\Interfaces.jar;out\production\Client;Client\lib\sqljdbc4.jar com.mantiso.Main
